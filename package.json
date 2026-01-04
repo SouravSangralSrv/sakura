@@ -1,0 +1,28 @@
+
+{
+  "name": "v-bharat-buddy",
+  "version": "1.0.0",
+  "description": "AI Anime Desktop Buddy - Indian Version",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build-exe": "electron-builder build --win --portable"
+  },
+  "author": "V-Bharat Team",
+  "dependencies": {
+    "@google/genai": "^1.34.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "devDependencies": {
+    "electron": "^31.0.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.vbharat.buddy",
+    "win": {
+      "target": "portable",
+      "icon": "icon.ico"
+    }
+  }
+}

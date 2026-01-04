@@ -1,0 +1,19 @@
+{
+  "name": "Copy of Copy of V-Bharat: AI Desktop Buddy",
+  "short_name": "VBharatBuddy",
+  "description": "Interactive anime buddy assistant with multi-gender Indian personas and PDF knowledge.",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#08080a",
+  "theme_color": "#ffffff",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
